@@ -1,0 +1,92 @@
+.footer1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 22, 95);
+    margin-top: 2%;
+    padding-bottom: 3%;
+}
+
+.container{
+    width: 60%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.container nav{
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.container nav a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between; /* Distributes space between the child elements */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 10px 20px; /* Add padding around the content */
+    border-bottom: 2px solid white; /* Adds a white border at the bottom */
+    margin-bottom: 10%;
+}
+
+.right69 {
+    /* Flex item to align text to the left */
+    flex: 1; /* Allows this item to take available space */
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+.left69 {
+    /* Flex item to align icons to the right */
+    display: flex;
+    align-items: center; /* Centers icons vertically */
+}
+
+.left69 a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits color from parent */
+
+}
+
+.left69 a:hover i {
+    color: #535050; /* Optional: changes icon color on hover */
+}
+
+.mail{
+    text-decoration: none;
+    padding: 8px 25px;
+    border: 2px solid #ffffff;
+    background-color: rgb(22, 22, 95);
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mail:hover{
+    background-color: #ffffff;
+    color: rgb(22, 22, 95);
+}
+
+@media screen and (max-width: 930px) {
+    .container{
+        width: 100%;
+    }
+    
+    .container nav a{
+        margin-right: 30px;
+    }
+}
