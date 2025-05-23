@@ -15,7 +15,7 @@
 
         <div class="pic">
 
-            <img src="./Source/assets/images/accommodation.jpg" alt="accommodation">
+            <img src="./Source/assets/images/accommodation.jpg" alt="accommodations">
         </div>
 
         <div class="type">
